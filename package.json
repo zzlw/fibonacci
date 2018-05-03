@@ -4,14 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/istanbul cover _mocha"
+    "test": "./node_modules/.bin/mocha"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "should": "^13.2.1"
+    "istanbul": "^0.4.5",
+    "should": "^13.2.1",
+    "mocha": "^5.1.1"
   },
   "devDependencies": {
-    "mocha": "^5.1.1"
   }
 }
